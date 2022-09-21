@@ -10,6 +10,7 @@ interface ParameterDetail {
     type: string;
     description: string;
     required: boolean;
+    enum?: any[];
 }
 interface Parameters<T> {
     example: T;
